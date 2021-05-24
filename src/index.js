@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Calculator from './main/Calculator';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    <div className='title-text inline-main'>
+      Calculator
+    </div>
+    <Calculator />
+  </div>,
   document.getElementById('root')
 );
 

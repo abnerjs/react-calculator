@@ -1,0 +1,8 @@
+.calculator {
+    height: 500px;
+    width: 250px;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 4px rgba(0,0,0,0.4));
+    background: linear-gradient(to bottom, rgb(75,79,80), rgb(29,33,37));
+    display: inline-block;
+}
