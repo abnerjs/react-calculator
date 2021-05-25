@@ -1,0 +1,19 @@
+:root {
+    --bg-button: #272B33;
+    --width-button: 50px;
+}
+
+.button {
+    width: var(--width-button);
+    height: var(--width-button);
+    line-height: var(--width-button);
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    color: #FFF;
+    cursor: pointer;
+}

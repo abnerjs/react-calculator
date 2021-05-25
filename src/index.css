@@ -30,7 +30,6 @@ body {
 .title-text {
   font-family: 'Mont', sans-serif;
   font-weight: bold;
-  transform: rotate(-90deg);
   font-size: 2em;
   margin: 0;
   padding: 0;
@@ -39,5 +38,10 @@ body {
 }
 
 .inline-main {
-  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 33%;
+  
+  transform: rotate(-90deg);
 }
