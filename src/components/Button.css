@@ -17,3 +17,15 @@
     color: #FFF;
     cursor: pointer;
 }
+
+.button:active {
+    background-color: #555555;
+}
+
+.button .operation {
+    color: #e27b27;
+}
+
+.button .offset {
+    display: hidden;
+}
