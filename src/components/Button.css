@@ -22,10 +22,11 @@
     background-color: #555555;
 }
 
-.button .operation {
+.button.operation {
     color: #e27b27;
 }
 
-.button .offset {
-    display: hidden;
+.button.offset {
+    opacity: 0;
+    cursor: auto;
 }
